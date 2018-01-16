@@ -26,4 +26,6 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps, {fetchContacts})(ContactListPage);
+export default connect(
+  mapStateToProps, {fetchContacts}
+)(ContactListPage);
