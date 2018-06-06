@@ -1,7 +1,4 @@
-// import { contacts } from '../contacts-data';
 import axios from "axios";
-
-import { client } from './';
 
 const url = '/contacts';
 
